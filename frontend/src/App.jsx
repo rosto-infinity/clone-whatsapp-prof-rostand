@@ -31,14 +31,14 @@ function App() {
   }
 
   return (
-  // <div> 
-  //   <AuthHeader />
-  //   <Auth />
-  // </div>
   <div> 
-  <Header />
-  <ChatContainer />  
+    <AuthHeader />
+    <Auth />
   </div>
+  // <div> 
+  // <Header />
+  // <ChatContainer />  
+  // </div>
   );
 }
 

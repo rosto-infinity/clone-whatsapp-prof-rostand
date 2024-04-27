@@ -17,7 +17,7 @@ const connectDB =  () => {
   mongoose.set("strictQuery", false);
   mongoose.connect(process.env.MongoDB_URL)
   .then(() =>{
-      console.log("Mongo connecté avec success")
+      console.log("MongoDB connecté avec success")
    } ).catch( (err) =>{
     console.log(err);
   //   process.exit();
