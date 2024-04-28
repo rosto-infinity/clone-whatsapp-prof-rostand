@@ -19,14 +19,14 @@ function App() {
   }, []);
 
   if(user.token){
-    // <div> 
-    // <Header />
-    // <ChatContainer />  
-    // </div>
-     <div> 
-     <AuthHeader />
-     <Auth />
-   </div>
+    <div> 
+    <Header />
+    <ChatContainer />  
+    </div>
+    //  <div> 
+    //  <AuthHeader />
+    //  <Auth />
+  //  </div>
     
   }
 

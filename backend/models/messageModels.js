@@ -29,7 +29,7 @@ const MessageSchema = new mongoose.Schema(
       required: true,
     },
   },
-  { timestamps: true }
+  { timestamps: true }  //Ajoute automatiquement l-heure que l'user aenvoyer le msg
 );
 
 export default mongoose.models.Message || mongoose.model('Message', MessageSchema);

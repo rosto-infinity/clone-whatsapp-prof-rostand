@@ -20,7 +20,7 @@ const UserSchema = new mongoose.Schema(
       type: String,
     },
   },
-  { timestamps: true } // Ajoute automatiquement des horodatages createdAt et updatedAt
+  { timestamps: true } // Ajoute automatiquement l-heure que l'user a creeer son compte
 );
 
 // Exportation du modèle d'utilisateur créé à partir du schéma
